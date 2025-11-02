@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selenium Test App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Selenium Test Application</h1>
+        <p>Sample web application for Selenium testing</p>
+      </header>
+
+      <main>
+        <section class="form-section">
+          <h2>User Registration Form</h2>
+          <form id="registrationForm">
+            <div class="form-group">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="form-group">
+              <label>
+                <input
+                  type="checkbox"
+                  id="agreeTerms"
+                  name="agreeTerms"
+                  required
+                />
+                I agree to the terms and conditions
+              </label>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+          </form>
+          <div id="message" class="message"></div>
+        </section>
+
+        <section class="interactive-section">
+          <h2>Interactive Elements</h2>
+          <button id="clickMe" class="btn-primary">Click Me</button>
+          <button id="hideShow" class="btn-secondary">Hide/Show Element</button>
+          <div id="hiddenDiv" class="hidden-content">
+            <p>This content can be hidden or shown!</p>
+          </div>
+          <div id="clickCount">Click count: 0</div>
+        </section>
+
+        <section class="dropdown-section">
+          <h2>Dropdown Selection</h2>
+          <select id="countrySelect">
+            <option value="">Select a country</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+          </select>
+          <div id="selectedCountry" class="selected-value"></div>
+        </section>
+
+        <section class="table-section">
+          <h2>Data Table</h2>
+          <table id="dataTable">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>jane@example.com</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Bob Johnson</td>
+                <td>bob@example.com</td>
+                <td>Inactive</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
