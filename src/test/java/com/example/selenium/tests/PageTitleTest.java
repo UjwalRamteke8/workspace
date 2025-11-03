@@ -43,3 +43,4 @@ public class PageTitleTest {
     assertThat(headerText).isEqualTo("Selenium Test Application");
   }
 }
+

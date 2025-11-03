@@ -90,3 +90,4 @@ public class FormTest {
     assertThat(checkbox.isSelected()).isFalse();
   }
 }
+

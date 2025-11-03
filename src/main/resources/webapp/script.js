@@ -51,3 +51,4 @@ document
       selectedCountry.textContent = "";
     }
   });
+

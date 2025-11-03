@@ -51,3 +51,4 @@ public class WebDriverConfig {
     return BASE_URL;
   }
 }
+

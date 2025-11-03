@@ -190,3 +190,4 @@ mvn clean install -DskipTests
 ## License
 
 This is a sample project for educational purposes.
+

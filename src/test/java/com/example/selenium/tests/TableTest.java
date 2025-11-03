@@ -70,3 +70,4 @@ public class TableTest {
     assertThat(rowCount).isEqualTo(3);
   }
 }
+

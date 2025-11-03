@@ -77,3 +77,4 @@ public class DropdownTest {
     assertThat(select.getOptions().get(4).getText()).isEqualTo("Australia");
   }
 }
+

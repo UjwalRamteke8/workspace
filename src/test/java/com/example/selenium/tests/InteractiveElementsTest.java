@@ -77,3 +77,4 @@ public class InteractiveElementsTest {
     assertThat(toggleButton.getText()).contains("Hide");
   }
 }
+
